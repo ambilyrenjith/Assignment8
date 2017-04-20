@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lab 2 - Calculator III</title>
+
+<script src="script.js"></script>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    $(function() {
+        $("#box").css("height", "300px");
+        $("#box").css("width", "250px");
+        $("#box").css("background-color", "brown");
+        $("#box").css("border-radius", "10px");
+        $("#box").css("border", "2px solid  black");
+        $("#result").css("width", "220px");
+        $("#result").css("height", "40px");
+        $("#result").css("margin-left", "15px");
+        $("#result").css("margin-top", "15px");
+        $("#result").css("font-size", "21px");
+        $("#seven").css("width", "40px");
+        $("#seven").css("height", "30px");
+        $("#seven").css("margin-left", "15px");
+        $("#seven").css("margin-top", "15px");
+        $("#eight").css("width", "40px");
+        $("#eight").css("height", "30px");
+        $("#eight").css("margin-left", "15px");
+        $("#eight").css("margin-top", "15px");
+        $("#nine").css("width", "40px");
+        $("#nine").css("height", "30px");
+        $("#nine").css("margin-left", "15px");
+        $("#nine").css("margin-top", "15px");
+        $("#divide").css("width", "40px");
+        $("#divide").css("height", "30px");
+        $("#divide").css("margin-left", "15px");
+        $("#divide").css("margin-top", "15px");
+        $("#four").css("width", "40px");
+        $("#four").css("height", "30px");
+        $("#four").css("margin-left", "15px");
+        $("#four").css("margin-top", "15px");
+        $("#five").css("width", "40px");
+        $("#five").css("height", "30px");
+        $("#five").css("margin-left", "15px");
+        $("#five").css("margin-top", "15px");
+        $("#six").css("width", "40px");
+        $("#six").css("height", "30px");
+        $("#six").css("margin-left", "15px");
+        $("#six").css("margin-top", "15px");
+        $("#multiply").css("width", "40px");
+        $("#multiply").css("height", "30px");
+        $("#multiply").css("margin-left", "15px");
+        $("#multiply").css("margin-top", "15px");
+        $("#one").css("width", "40px");
+        $("#one").css("height", "30px");
+        $("#one").css("margin-left", "15px");
+        $("#one").css("margin-top", "15px");
+        $("#two").css("width", "40px");
+        $("#two").css("height", "30px");
+        $("#two").css("margin-left", "15px");
+        $("#two").css("margin-top", "15px");
+        $("#three").css("width", "40px");
+        $("#three").css("height", "30px");
+        $("#three").css("margin-left", "15px");
+        $("#three").css("margin-top", "15px");
+        $("#subtract").css("width", "40px");
+        $("#subtract").css("height", "30px");
+        $("#subtract").css("margin-left", "15px");
+        $("#subtract").css("margin-top", "15px");
+        $("#zero").css("width", "40px");
+        $("#zero").css("height", "30px");
+        $("#zero").css("margin-left", "15px");
+        $("#zero").css("margin-top", "15px");
+        $("#period").css("width", "40px");
+        $("#period").css("height", "30px");
+        $("#period").css("margin-left", "15px");
+        $("#period").css("margin-top", "15px");
+        $("#add").css("width", "40px");
+        $("#add").css("height", "30px");
+        $("#add").css("margin-left", "15px");
+        $("#add").css("margin-top", "15px");
+        $("#equal").css("width", "40px");
+        $("#equal").css("height", "30px");
+        $("#equal").css("margin-left", "15px");
+        $("#equal").css("margin-top", "15px");
+        
+        
+    
+    });     
+</script>
+</head>
+
+<body>
+    <div id="box">    
+        <input type="text" readonly id="result">
+        <br>
+        <div id="container">
+            <input type="button" id="seven" value="7">
+            <input type="button" id="eight" value="8">
+            <input type="button" id="nine" value="9">
+            <input type="button" id="divide" value="/">
+            <br>
+            <input type="button" id="four" value="4">
+            <input type="button" id="five" value="5">
+            <input type="button" id="six" value="6">
+            <input type="button" id="multiply" value="*">
+            <br>
+            <input type="button" id="one" value="1">
+            <input type="button" id="two" value="2">
+            <input type="button" id="three" value="3">
+            <input type="button" id="subtract" value="-">
+            <br>
+            <input type="button" id="zero" value="0">
+            <input type="button" id="period" value=".">
+            <input type="button" id="add" value="+">
+        </div>
+        <input type="button" id="equal" value="=">
+    </div>    
+</body>
+</html>
